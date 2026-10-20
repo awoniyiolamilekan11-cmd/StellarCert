@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-18-storageservice-crashes-startup-when-s3-config",
+    "fix/issue-8-multisig-service-calls-gettransaction",
+    "fix/issue-9-multisig-dto-constructors-inject-loggingservice",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-18-storageservice-crashes-startup-when-s3-config": "main",
+    "fix/issue-8-multisig-service-calls-gettransaction": "main",
+    "fix/issue-9-multisig-dto-constructors-inject-loggingservice": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-18-storageservice-crashes-startup-when-s3-config",
+    "fix/issue-8-multisig-service-calls-gettransaction",
+    "fix/issue-9-multisig-dto-constructors-inject-loggingservice",
+    "origin"
+  ]
+}
